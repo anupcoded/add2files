@@ -1,6 +1,6 @@
 @echo off
 REM change the extension
-for /R "C:\Users\aramachandran\Desktop\config\" %%A in (*.properties) do (
+for /R "C:\path\name\" %%A in (*.properties) do (
 
 REM call top to add at the top of the file
   call :top
